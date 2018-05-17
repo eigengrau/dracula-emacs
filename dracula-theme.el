@@ -26,7 +26,6 @@
                 (bg3          "#464752")
                 (bg4          "#565761")
                 (bg5          "#44475a")
-                (bg6          "#b45bcf")
                 (key2         "#0189cc")
                 (key3         "#ff79c6")
                 (builtin      "#ffb86c")
@@ -70,7 +69,6 @@
                (vertical-border :foreground ,bg2)
                (warning :foreground ,warning)
                (whitespace-trailing :inherit trailing-whitespace)
-               (header-line :background ,bg1)
                ;; syntax
                (font-lock-builtin-face :foreground ,builtin)
                (font-lock-comment-face :foreground ,comment)
@@ -286,10 +284,6 @@
                (powerline-evil-operator-face :inherit powerline-evil-base-face :background ,rainbow-4)
                (powerline-evil-replace-face :inherit powerline-evil-base-face :background ,rainbow-9)
                (powerline-evil-visual-face :inherit powerline-evil-base-face :background ,rainbow-5)
-               (powerline-active1 :background ,bg6 :foreground ,fg1)
-               (powerline-active2 :background ,bg6 :foreground ,fg1)
-               (powerline-inactive2 :background ,bg3 :foreground ,fg1)
-               (powerline-inactive2 :background ,bg3 :foreground ,fg1)
                ;; rainbow-delimiters
                (rainbow-delimiters-depth-1-face :foreground ,rainbow-1)
                (rainbow-delimiters-depth-2-face :foreground ,rainbow-2)
